@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="40"
+  viewBox="0 0 57 40">
+  <defs>
+    <pattern id="pattern_php" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 96 49">
+      <image width="96" height="49"
+        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAxCAYAAAAlSqxqAAAACXBIWXMAAAsSAAALEgHS3X78AAAD7ElEQVR4nO1b7XHbMAwFff0fbxBvEG9Qd4J6BHcDd4Nkg3QDdQNlA3uCJhvYG9gToMcUchVaBECK1Ff87ng5nxQCEAg+8lEyiAhDhjFmCQB/GBefEPFx0EEwmA3Ws/9YCtd3XTqTGqNPACLeEpAZXALeRuA/izEk4Ctz7bVDP7Jg0AkgAuZwS0Bm3BLQMyZNwDDyBIyegGEECZg0Ab/D7oR9DQAKe0vLtqN+NgAw5+zVG43+trZtkkoA2ALAQmub7L+2tH2i2J8BYO21k9mJJqcelQ9gk9h2NRiWSvupbR9sTKEJSO1EfWSy1UAjJ5f9qwfh2F5ltF3WY+/LCTEJNFpz2vdWAk1ZOW2XlS2OhKU1eFs82OmI6YMj4BTY9hj7d2PMP/uZCVjTrsgxEQFL7dAh9zW1k7X1JXIUHIkkXazo94r+/04xGjYNlSCNwN9Eak2Y21UHANwLfXDXH5hr+wZ/5+Rz9VdTvXfGmE0sAZe+/3P6WNPKh+trF0rASttiBUdyn3YVp+GRIpaAVU6gcjkZSMCvSrvzyARID24VEPujNPh8JJzsFAoRC+29NbTeASPiSbjFJ2WkFABL4foiNgGhMsBZe2OHErSPQ1juUyT2AkSUfL2PSUCQEwQNGWtsgzYBxpiVcIuvH46AU+tPR18CunTCRSoJOngabZG0Riiq+XCVgB6ccOfiVBJ0TCWlfgNjIVw/NVVAaifEUeD8TiVBx0yjqflH7C8mAaFOSBV1SWhiAo6ZRlNz31q4HpyAHE7UK2oyBGyMWQj9WT4rmxKQ0omNsAI6Oku1yRCwR6qp4wXcI8kMTkjvbD47vydBwMaYuaC2QhW7WwEpnSgEwctuztxd8lQIuBAqf3+p5kABSzzTJQ1GI2VvAyXobYAGEywkChK0V7p2+lgoD5IuepIrRweNHCKaqi1pxcMSD+ENEUOmHxgaAdOKbR4R+8sHLgsYOanayXMI01qCjlUzOzh+vSi57ixy4QDFyEmBMz2AJiFsyAScAmd6GeDDLFIn4dxOVA/fNwX0ScCSZNAW3ti7SsCRe/gD3wG3xZ6m3EbbuRNgM/9Er4BwD7FvAs7xBoYddD8QccWpB/VVkIbBNdhToDs679VIF6l2wGrdqYKi+rQ41+K2x6bSadg73hOgGDm/hOO1g4dYtSgUx3caFMJmMYaAfwoV2Cr2qgIkJ8qc7+Irju60/RyYo0YfpNiLCAFSjYoDJv8hBIPU6m8QNAmYxIcQDHr9BqFKQJ9nwL1hCB8BzjJI0GNC71/hzz7Dl4gM+q+AGwF7kZ2AQZGAGwFnxuxGwF50ErvdiH1jrrfZ3Q4dNjYu9vwJAIC/48aJtwMm/JIAAAAASUVORK5CYII=" />
+    </pattern>
+    <clipPath id="clip-Web_1920_7">
+      <rect width="57" height="40" />
+    </clipPath>
+  </defs>
+  <g id="Web_1920_7" data-name="Web 1920 – 7" clip-path="url(#clip-Web_1920_7)">
+    <rect width="57" height="40" fill="transparent" />
+    <rect id="php-logo" width="54.612" height="28" transform="translate(1 6)" opacity="0.04" fill="url(#pattern_php)" />
+  </g>
+</svg>

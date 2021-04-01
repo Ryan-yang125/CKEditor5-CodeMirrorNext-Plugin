@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="40" viewBox="0 0 53 40">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 94 39">
+      <image width="94" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAnCAYAAACG//9nAAAACXBIWXMAAAsSAAALEgHS3X78AAADK0lEQVRoge1b7ZGbQAyVMvkfp4JzB3EH4SoIHcQlOB2QCsJ1gDu4Dg53wHWQEnAFyuzkMUPIwQr2g8XnN6PxD0CIJ612pV0zEQm540pEDaQ2IiKtB72bBDNbOfVF/BDGEc9EVIjI75tj1oI1ie9gHFCKSBHwHckhBeI7nEXkmCRLAaAh/kMkW74zcxnpXZtArIjv8CgiZvK9aaQU8R1Okd+XLLQRfyait1YnByLKiOjTjA/8fOtLTU3EE4i3SSYiNCaIZI0eI/mUrlsQDQ9eUo2ImInzh/J2M0rePT76IsCQz8y/fOlj5j3SWPfbR43UV8cq0GBPDlt2RNSiRlm8WHBONZ2AEJsuU81O6Tii9aBNXbXWvsF7VHaC5HLOt2js9hbxwOI0wswmkioiepj56FciemHmi3GazxHAzDs49osvnR28LSeZ+TBzddN/1kzOLwtI78M4oIEdvvAcgnTyRTw+tlLe/k9EoqL1NTcYx9eeyD/CmcGwOMcjtZSYaLQ5eT/I59rn5oixZ+eY4zVydNAd5MNHJ8KecXulw1qMpgKrigKjxvZcFYH4sYBMjvisZ1yluL8Yi1xl0ba/E9+LQES77f6TYkloc97o0nWm7S1SataTfMyxKRFfy7xorW2kKx3YeCDepLWD5xohCvHlG4bZCi1rtPd0TeZ7R3Ksk3SKxI9WlBGc3RcXGyarbBfifVeuFxBejVWQ6HlsBcF2zbTEj/XjGwzHVkQapa7YxGcIhrm4htw30BJfvYctuwG0gbQIsbf+7gDWID72AackD1T5nlytMJMuM9tuexKRm94YXyvVvFqu55HsWA1rEW+bqB+YWdVmNm1lZm7R098UFhchS0XZqxFsREw1uoa9mkZb3msKQIfv81a5eiVe2TYYVsFdW/gEwqdayqNdzTvxfzdRlrQAtDLZ3Fqb+NXW8ah0tWdxlmCX6lKS1i6gcBDqHED1FaM02aOCq1euODf/06PKV5AetOR3RRItA/xj5FGxvrfhaQukEypXTbQFz5Vowh2YOcfpg2/KR5f+3+piue7iPJtuYszCSQKny4bnJjsYks3WXvLR/R+I6A/HzOCLUMdcigAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <clipPath id="clip-Web_1920_18">
+      <rect width="53" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_18" data-name="Web 1920 – 18" clip-path="url(#clip-Web_1920_18)">
+    <rect width="53" height="40" fill="#fff"/>
+    <rect id="perl黑" width="48.949" height="21" transform="translate(2 10)" opacity="0.04" fill="url(#pattern)"/>
+  </g>
+</svg>

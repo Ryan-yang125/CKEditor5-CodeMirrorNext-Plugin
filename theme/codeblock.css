@@ -1,0 +1,47 @@
+/*
+ * Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+ */
+
+.toe-content pre {
+    padding: 1em;
+    color: #444; /*hsl(0, 0%, 20.8%);*/
+    background: #eee; /*/hsla(0, 0%, 78%, 0.3);*/
+    border: none;
+    border-radius: 2px;
+
+    /* Code block are language direction–agnostic. */
+    text-align: left;
+    direction: ltr;
+
+    tab-size: 4;
+    white-space: pre-wrap;
+
+    /* Don't inherit the style, e.g. when in a block quote. */
+    font-style: normal;
+
+    /* Don't let the code be squashed e.g. when in a table cell. */
+    min-width: 200px;
+
+    & code {
+        background: unset;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+.toe.toe-editor__editable pre {
+    position: relative;
+    min-height: 90px;
+    /* &[data-language]::after {
+    content: attr(data-language);
+    position: absolute;
+  } */
+}
+
+.toe-code-selector-wrapper {
+    /* position: absolute;
+  right: 11px;
+  top: 11px;
+  height: 80%; */
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="40" viewBox="0 0 62 40">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 109 40">
+      <image width="109" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAAAoCAYAAAD0bXSJAAAACXBIWXMAAAsSAAALEgHS3X78AAAFh0lEQVR4nO1bO3IbORDt3nLO2WhD8QbiDcjNNrNu4LmB5MyZqRtI4WazN6BuQJ/AdOiMm21InQAu0A+uNowefAhQo5Ve1ZREEp8GGt143cCwMYZagJkXRNQbY26adPDCsSIiU/BsrcK1h4gOaLOPlCvpu+RZj8mR+9jx58igjD1n7leu3hsi2hPRLRF1RLTA38vAOr4noo34fNDWOjP3RDTDR/v/0NAu7oUsczwWS69cV7lfO6Yd5mwhxpsDO/cPUF6o/iP6OKDsdygr4M7T8qhVBer7q3CulFuIMgf0awewCJS9Cqy+mLXfCIvPGkOB5a0D8h1ingZ150JOAwWp9VIFSB4wBDCeEEPEPVghu0i7IVdylSCPU/a+pdLQ18aTbxcbV2ChR+v8VtlluNX9iL8OV8w85p5ujDGqux1BtI4xxk7kv0R0UdB+Lnr05XAJAxgFSNsS83YVm4sWSrOCb4wxgxjADCvehxX2ERPbEsf2MTnNgMnuvfavmXkV6dPt+ZYs7SNl6ypNEBAnhFRGiPp3cAetsRX9NYUxZgtyJLHRPA0zr2GRD8aYuxTZalva0T1AcAKxcLhUVvo28F1tuNXb1NIE1p6bnIUYNDPPxXbiW6iKakqDAEupKJj6J1HMt7aY26gCY4yz5uaWRrqbfMvM/hYxQKF9zp7+po6YRziF+CtqEDHTkZB4AjZxj1hEcuK+EtFfzFytD2OMSjKst2Fm6yavxdeDlcuOn5lvMC/32Xt6LcoPJqdRe0n/e/H9IoMShyj/KrN81SdB5g6uWfa7EXFZNNRpRvkFAdFWjLS+Hy7Suq1Cqh+FXenGGJtbtab1OxG9D9S5dWW0B3X/RH25T1GMFWJsvkt8i318lkLvtYZPtjQIoQavXubDhDIetS1NaSOaD0xoQ85NNLhX5tM+dyX9V7E0QUAumNmEHiL67FV7tpl/7GMP+JjERlHni/d1H0k4qKjhHq0C/klwM5JFvisVeCJwi26eIY7PJse2k1HUUFqf2LnPKpPjkqkBocyXE5VmsQSLzMJJSgMBoRTKirTWo/jquR+O7lKVBsJyjfH7bnKNLSYZp1paqpU5SGu7SMjJTRn7lCQ0tgE37l5xk1nnjcVKE8GhujfZvBqICCmradLWJuUPYE9pSegByrW5xQ2yM7demSVykGnIpfyO3gfOjX6hsLDCAwTXAttdYvB+dsrv5FZ+6yCTGhzDqtzZYuf9tguMJykUKk1j7X86/tbRiePyTwnlpwZ1r0FQrCa74VlcHjaUW+wDodCQFEbkWlrmyj7UOuY/t6WJE/jSINxZ0makTCjojl5AanEIegR8/exMRy9VAYJUfDArzshGj1yUoPtjjKDVzPL7mHwcxsz+gtJuouW0aRfrR3xMOXIJuknbjla3idJAc53SpmxpIcY2hyt+l9sYxu0s9CExft0x861QNIFtrlV23WJP824lZe07E9rTVrl7mrh6+AtbzNgDo+PT9rSivKBlTMy8wfGDQ61DzpBMzfKXuDLh7zcqsI+5A89DwZFLyOqDd0uO7hHpKEdvV4HbuXNsjnt5Wwj+uxtzKaXnZaDMTqaFMqg1TqJdH7XP58ZuUTuy8AHy/SF+vsDivYvJBKWslPFZIrfDgtj/aMsU3EvPeIouiFaQJ+jOC4Lrdahc6R38SmNdOyIyNCIMKQF4CKfKU9qvD00G9/6D80p/E9F/hbLkjnXb7FWnKcLPI+Kcrxhu/z61nVw0C65fCFZPkZ57VVohcIdxdqYb0j/hVWnlcIHvq9KeA2BlLiw6u9JeiUh+Gwtxb/FkMlOCF2NpoRPmnFefbFlmHpDcda/aJmdMaqJllv9JAYXIt3b8LA8dYx7mFPcWqktP4Rrp/6y0AE6h5lrd859gENE3T2CvRZd9fsAAAAAASUVORK5CYII="/>
+    </pattern>
+    <clipPath id="clip-Web_1920_10">
+      <rect width="62" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_10" data-name="Web 1920 – 10" clip-path="url(#clip-Web_1920_10)">
+    <rect width="62" height="40" fill="#fff"/>
+    <rect id="latex-project-logo" width="60" height="22" transform="translate(1 9)" opacity="0.07" fill="url(#pattern)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="40" viewBox="0 0 48 40">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 106 75">
+      <image width="106" height="75" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABLCAYAAACY0RIEAAAACXBIWXMAAAsSAAALEgHS3X78AAAEDklEQVR4nO2dz1EbMRSHBZM7dAAdxB2QsAXEd124+kRSQUwHyclXX945pABNcAWBCkI6gArIPI9MsFZr75+fVk+yvuPOIC37430SK8k+ury8PFdKXSkMj8aYpduS1nqilJqC+rgnoltQW8lw9PLyoqqqulNKXYBu+qMx5u7tBa31KT9gpdQZoP1npdSEiB4BbSXDsb3RK/sAECyrqjp92w4RPQGr9oT7yC6JPayDMsbwX+cc1OaZry0i4ir7DurjQmv9GdRWEmwqisP6ppRagW76uqqqD57rHOBfUB9zrfU5qC3xHDs3WBQolK2gigLl4lZUUaBQakFZigKF4Q2qKFAeTRVVFCiMxqAsRYFC2BlUUaAc9lVUUaAQ9gZlKQqMTKugigLj07aiigIj0zooS1FgJDoFVRQYj64VNaYCUZWbhQI7B2UpChyZXkGNpEDewPIT1EfyClxvbunLSJti+I/iBNC+d1PMbDZjLf4BtB+UvurbkLwCF4sFB3cD6iMYg4LKRYGLxYL7fQD1EYShFTXWLBBZuU2zQFTlBmFwUJYcFHgvWYGQoIoCw4OqqKLAwMCCshQFBgIaVFFgONAVVRQYCHhQlqJAMEGCKgrEM+hd3z4yeReIPC3Zm9BBnduThogHyUv0E2PM09uLWmt+iD8A7TMrIvKNidEJNUatKcshOIIGpf7PAlEbVngWOPFcR87QRK4IBw+qqqop6JA1szLG3HuuI6tA5Ipw0KDstBr1Sz/7Ksd+NMJXUB8bxCnwXeD2l6CJBDO3Y56vjxCwAm99H5Mwm81Q425rggVllfcJ1NzKjnVbaK35gb0H9eGyUWDTLBBdxTsJor6Eleci5h/hUGNUysqr9S/hXSA8qAyU5yLiXSA0qIyU5xJdgeiKykl5LlEVCAsqQ+W5RFUgJKiMlecSTYGoispZeS5RFDg4qANQnksUBQ4KKkHlobYHjK7AoRWVmvKmI5wRDqLA3iu8VnmwlVVjTO2dmlUeqppuiIgfLvfzC9Smd0XYLt+f+n+kH72CssqD7lVwq8kq7zegfeaBiF4XHLXWPA5eg9r+QkS1cRVNX/WlpjxXR8l9TELnoOyGyJRmeay8rVXhFM8IdwoqwVkeK8+7yJfaxyR0rag5cP9DDOXV7iEVBbYOyioPNQBHUZ5LSgpsFVROynNJRYFtKyo35bmIV+DeoHJUnksKCtwZVM7Kc5GuwH0VlZLyngGnLsQqsDGoBJU3H/qdUpIV6A0qQeWtUO/bpCqwqaJSUx56aUGcAmtBHaLyXCQqcCuoQ1aeizQFuhV16MpzEaPA16CK8upIUuA6qKK8ZqQocFNRRXm7ia7AzTdbox4if7O1r5qmwHO2SyIafTOm3RSDOml41+lVl1LqH7an/4ojLKw1AAAAAElFTkSuQmCC"/>
+    </pattern>
+    <clipPath id="clip-Web_1920_16">
+      <rect width="48" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_16" data-name="Web 1920 – 16" clip-path="url(#clip-Web_1920_16)">
+    <rect width="48" height="40" fill="#fff"/>
+    <rect id="haskell-logo" width="47" height="34" transform="translate(0 3)" opacity="0.11" fill="url(#pattern)"/>
+  </g>
+</svg>
