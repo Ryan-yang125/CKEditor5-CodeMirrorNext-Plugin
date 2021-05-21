@@ -17,7 +17,7 @@ const theme = createMuiTheme({
     overrides: {
         MuiSelect: {
             root: {
-                fontSize: '16px',
+                fontSize: '14px',
             },
             icon: {
                 marginTop: '-5px',

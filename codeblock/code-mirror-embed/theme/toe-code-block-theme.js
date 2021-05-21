@@ -11,7 +11,7 @@ const chalky = '#e5c07b',
     sage = '#98c379',
     whiskey = '#d19a66',
     violet = '#c678dd',
-    background = '#f4f5f6';
+    background = '#f5f6f7';
 
 // The editor theme styles for TOE.
 const ToeTheme = EditorView.theme({
@@ -21,16 +21,21 @@ const ToeTheme = EditorView.theme({
         outline: 'none',
     },
 
+    '.cm-scroller': {
+    },
+
     '.cm-content': {
-        fontFamily: 'Courier New',
+        padding:"12px 0px 10px 10px",
+        fontFamily: 'monospace',
     },
     '&.cm-focused': {
         outline: 'none',
     },
-    '.cm-line': {
-        paddingLeft: '4px',
-        paddingRight: '4px',
-    },
+
+    // '.cm-line': {
+    //     paddingLeft: '4px',
+    //     paddingRight: '4px',
+    // },
 
     '.cm-activeLine': { backgroundColor: background },
 
@@ -38,7 +43,7 @@ const ToeTheme = EditorView.theme({
         backgroundColor: background,
         color: stone,
         border: 'none',
-        paddingLeft: '8px',
+        paddingLeft: '16px',
     },
 });
 

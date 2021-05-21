@@ -4,9 +4,7 @@ import ReactDOM from 'react-dom';
 
 function codePanel(language, onLangChange, onLineWrappingChange) {
     let dom = document.createElement('div');
-    dom.style.outline = 'none';
-    dom.style.backgroundColor = '#eff0f1';
-    dom.style.height = '32px';
+    dom.style.cssText = 'height:32px; outline:none; background-color: #eff0f1;';
     ReactDOM.render(
         <TopPanel language={language} onLangChange={onLangChange} onLineWrappingChange={onLineWrappingChange} />,
         dom,

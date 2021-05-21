@@ -1,6 +1,6 @@
 import { FormControlLabel, Switch } from '@material-ui/core';
 import { makeStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-const color = '#4b6894';
+const color = '#3370ff';
 const theme = createMuiTheme({
     palette: {
         primary: {

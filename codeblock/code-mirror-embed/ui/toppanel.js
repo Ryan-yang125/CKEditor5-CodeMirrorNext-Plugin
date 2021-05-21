@@ -5,6 +5,7 @@ const defaultProps = {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
+        fontSize: '14px'
     },
 };
 export default ({ language, onLangChange, onLineWrappingChange }) => {

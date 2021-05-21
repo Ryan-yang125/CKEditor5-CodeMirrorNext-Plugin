@@ -1,9 +1,16 @@
-import { c, cpp, java } from '@codemirror/legacy-modes/mode/clike';
+import { c, cpp, java, csharp} from '@codemirror/legacy-modes/mode/clike';
 import { python } from '@codemirror/legacy-modes/mode/python';
-import { javascript, typescript } from '@codemirror/legacy-modes/mode/javascript';
+import { javascript, typescript, json } from '@codemirror/legacy-modes/mode/javascript';
 import { ruby } from '@codemirror/legacy-modes/mode/ruby';
+import { rust } from '@codemirror/legacy-modes/mode/rust';
 import { textile } from '@codemirror/legacy-modes/mode/textile';
 import { css } from '@codemirror/legacy-modes/mode/css';
+import { go } from '@codemirror/legacy-modes/mode/go';
+import { haskell } from '@codemirror/legacy-modes/mode/haskell';
+import { shell } from '@codemirror/legacy-modes/mode/shell';
+import { standardSQL } from '@codemirror/legacy-modes/mode/sql';
+import { html } from '@codemirror/legacy-modes/mode/xml';
+
 const defaulLanguage = 'textile';
 
 const languageSupport = [
@@ -48,11 +55,60 @@ const languageSupport = [
         mode: ruby,
     },
     {
+        language: 'rust',
+        label: 'Rust',
+        mode: rust,
+    },
+    {
         language: 'typescript',
         label: 'TypeScript',
         mode: typescript,
     },
+    {
+        language: 'json',
+        label: 'JSON',
+        mode: json,
+    },
+    {
+        language: 'go',
+        label: 'Go',
+        mode: go,
+    },
+    {
+        language: 'haskell',
+        label: 'Haskell',
+        mode: haskell,
+    },
+    {
+        language: 'shell',
+        label: 'Shell',
+        mode: shell,
+    },
+    {
+        language: 'standardSQL',
+        label: 'SQL',
+        mode: standardSQL,
+    },
+    {
+        language: 'html',
+        label: 'HTML',
+        mode: html,
+    }
 ];
+
+languageSupport.sort((a,b) => {
+    if (a.language === 'textile' || b.language === 'textile') {
+        return 1;
+    }
+    if (a.language < b.language) {
+        return -1;
+    }
+    if (a.language > b.language){
+        return 1;
+    }
+    return 0;
+});
+
 const languageConfigs = {
     c,
     cpp,
@@ -62,7 +118,13 @@ const languageConfigs = {
     typescript,
     css,
     ruby,
+    rust,
     textile,
+    json,
+    go,
+    haskell,
+    html,
+    standardSQL
 };
 const languageLabel = {
     textile: 'Plain Text',
@@ -74,14 +136,13 @@ const languageLabel = {
     typescript: 'TypeScript',
     css: 'CSS',
     ruby: 'Ruby',
+    rust: 'Rust',
+    json:'JSON',
+    go:'Go',
+    haskell:'Haskell',
+    html:'HTML',
+    standardSQL:'SQL'
 };
-// languageSupport.forEach(item => {
-//     // const requireDFile = `@codemirror/legacy-modes/mode/${item.mode}`;
-//     // const languageData = (await import(`@codemirror/legacy-modes/mode/${item.mode}`))[item.language];
-//     // const languageData = require(`@codemirror/legacy-modes/mode/${item.mode}`)[item.language];
-//     // const languageData = require(requireDFile)[item.language];
-//     languageConfigs[item.language] = languageData;
-// });
 const getStreamLanguage = lang => {
     let streamLanguage = languageConfigs[lang];
     if (streamLanguage) {

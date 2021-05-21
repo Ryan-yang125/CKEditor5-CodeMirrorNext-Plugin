@@ -3,20 +3,22 @@ import { EditorView, keymap } from '@codemirror/view';
 import { Compartment } from '@codemirror/state';
 import { defaultTabBinding } from '@codemirror/commands';
 import { StreamLanguage } from '@codemirror/stream-parser';
-import { ToeTheme, ToeHighlightStyle } from './theme/toe-code-block-theme';
-import { getStreamLanguage } from './lang';
+
 import CodePanel from './codepanel';
+import { getStreamLanguage } from './lang';
+
+import { ToeTheme, ToeHighlightStyle } from './theme/toe-code-block-theme';
 
 const defaultConfigs = {
     ifLineWrapping: false,
 };
-export default (domElement, language, sourceCode, modelElement, model) => {
+export default (domElement, language, sourceCode, modelElement, model, editingDowncastConversionHelper) => {
     let languageCompartment = new Compartment(),
         lineWrappingCompartment = new Compartment(),
         panelCompartment = new Compartment();
     const { streamLanguage, label } = getStreamLanguage(language);
 
-    // add view updateListener to keep new doc up with dom element
+    // doc => attribute
     const onDocChange = EditorView.updateListener.of(v => {
         if (v.docChanged) {
             // Document changed
@@ -47,6 +49,27 @@ export default (domElement, language, sourceCode, modelElement, model) => {
         parent: domElement,
     });
 
+    // attribute => doc
+    editingDowncastConversionHelper.add(
+        dispactcher =>
+                dispactcher.on('attribute:source-code', (evt, data,conversionApi) => {
+                    if (data.item !== modelElement) {
+                        return;
+                    }
+                    conversionApi.consumable.consume(modelElement, evt.name);
+
+                    const newValue = data.attributeNewValue;
+                    const doc = codeView.state.doc.toString();
+                    // 长文本下性能可能还不如直接删了插入新的
+                    if (newValue === doc) {
+                        return;
+                    }
+                    codeView.dispatch({
+                        changes: [{from: 0, to: doc.length}, {from: 0, insert: newValue}]
+                    })
+                }),
+    )
+
     // when browser loaded document, we can't do focus rightly
     // put it into a macro queue which is lower than render in priority
     setTimeout(() => {
@@ -68,6 +91,7 @@ export default (domElement, language, sourceCode, modelElement, model) => {
 
     // Auto line break switcher onChange
     const onLineWrappingChange = ifLineWrapping => {
+        // console.log(ifLineWrapping);
         codeView.dispatch({
             effects: lineWrappingCompartment.reconfigure(ifLineWrapping ? EditorView.lineWrapping : []),
         });

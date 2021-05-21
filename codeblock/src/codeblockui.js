@@ -32,7 +32,7 @@ export default class CodeBlockUI extends Plugin {
             const splitButtonView = dropdownView.buttonView;
 
             splitButtonView.set({
-                label: t('Insert code block'),
+                label: t('插入代码块'),
                 tooltip: true,
                 icon: codeBlockIcon,
                 isToggleable: true,
@@ -41,9 +41,7 @@ export default class CodeBlockUI extends Plugin {
             splitButtonView.bind('isOn').to(command, 'value', value => !!value);
 
             splitButtonView.on('execute', () => {
-                editor.execute('codeBlock', {
-                    language: `textile`,
-                });
+                editor.execute('codeBlock','textile');
 
                 editor.editing.view.focus();
             });
